@@ -75,19 +75,3 @@ $border-radius: .4rem;
 // @import "bootstrap/scss/spinners";
 @import "bootstrap/scss/utilities";
 // @import "bootstrap/scss/print";
-
-
-//
-// Custom styles
-//
-
-body {
-  padding: 3rem 1.5rem;
-  background-color:rgb(179, 177, 177);
-  font-size: 4em;
-}
-
-// Style Bootstrap icons
-.bi {
-  fill: currentColor;
-}

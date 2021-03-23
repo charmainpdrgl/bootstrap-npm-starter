@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "index.css",
+	"sources": [
+		"../../scss/index.scss"
+	],
+	"sourcesContent": [
+		"//\n// Custom styles\n//\nbody {\n    padding: 3rem 1.5rem;\n    background-color:rgb(179, 177, 177);\n    font-size: 4em;\n  }\n  \n  // Style Bootstrap icons\n  .bi {\n    fill: currentColor;\n  }"
+	],
+	"names": [],
+	"mappings": "AAGA,AAAA,IAAI,AAAC,CACD,OAAO,CAAE,WAAW,CACpB,gBAAgB,CAAC,OAAkB,CACnC,SAAS,CAAE,GAAG,CACf,AAGD,AAAA,GAAG,AAAC,CACF,IAAI,CAAE,YAAY,CACnB"
+}
