@@ -5,8 +5,8 @@
 		"../../scss/index.scss"
 	],
 	"sourcesContent": [
-		"// Style Bootstrap icons\n  .bi {\n    fill: currentColor;\n  }"
+		"// Style Bootstrap icons\nbody {\n  font-size: 1rem;\n  font-weight: 400;\n  line-height: 1.5;\n  color: #6f42c1;\n}"
 	],
 	"names": [],
-	"mappings": "AACE,AAAA,GAAG,AAAC,CACF,IAAI,CAAE,YAAY,CACnB"
+	"mappings": "AACA,AAAA,IAAI,AAAC,CACH,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,GAAG,CAChB,WAAW,CAAE,GAAG,CAChB,KAAK,CAAE,OAAO,CACf"
 }
