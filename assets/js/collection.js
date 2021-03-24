@@ -1,13 +1,13 @@
 var client = ShopifyBuy.buildClient({
-    apiKey: "bede6ad269bcae5f67f81abfc8d4073f",
-    domain: "charmains-shopify.netlify.app",
+    apiKey: "5f5b12708034eb00b387751cc46dfcff",
+    domain: "charmains-shop.myshopify.com",
     appId: "6"
   });
   
   var ui = ShopifyBuy.UI.init(client);
   
   ui.createComponent("collection", {
-    id: 262878494885,
+    id: 278378774728,
     options: {
       product: {
         isButton: true,
