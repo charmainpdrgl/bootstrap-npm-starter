@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "navbar.css",
+	"sources": [
+		"../../scss/navbar.scss"
+	],
+	"sourcesContent": [
+		"$heading-text-colour: #8C0303; // Burnt red\n$highlight-colour: #f5840c; // Bright orange\n$body-bg: #f5f5f5; // Light grey\n$body-text-colour: #0D0D0D; // Dark colour for text\n$secondary-highlight: #F2CF66; //Secondary highlight colour\n$border-radius: .4rem;"
+	],
+	"names": [],
+	"mappings": ""
+}
