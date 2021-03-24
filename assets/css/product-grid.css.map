@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "product-grid.css",
+	"sources": [
+		"../../scss/product-grid.scss"
+	],
+	"sourcesContent": [
+		".product-grid {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 2.5rem;\n\n    @media screen and (min-width: 576px) and (max-width: 992px)\n    {\n        grid-template-columns: repeat(2, 1fr);\n    }\n    \n    @media screen and (max-width: 576px) {\n        grid-template-columns: repeat(1, 1fr);\n    }    \n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,aAAa,AAAC,CACV,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,cAAc,CACrC,GAAG,CAAE,MAAM,CAUd,AARG,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK,EAL9D,AAAA,aAAa,AAAC,CAON,qBAAqB,CAAE,cAAc,CAM5C,CAHG,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,EAVvC,AAAA,aAAa,AAAC,CAWN,qBAAqB,CAAE,cAAc,CAE5C"
+}
