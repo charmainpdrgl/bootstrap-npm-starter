@@ -5,8 +5,8 @@
 		"../../scss/navbar.scss"
 	],
 	"sourcesContent": [
-		"$heading-text-colour: #8C0303; // Burnt red\n$highlight-colour: #f5840c; // Bright orange\n$body-bg: #f5f5f5; // Light grey\n$body-text-colour: #0D0D0D; // Dark colour for text\n$secondary-highlight: #F2CF66; //Secondary highlight colour\n$border-radius: .4rem;"
+		"a:link {\n    color: green;\n}\n\na:visited {\n    color: green;\n}\n\na:hover {\n    color: #402e2e;\n    text-decoration: none;\n}\n\n.sticky {\n    position: sticky;\n    top: 0;\n    width: 100%;\n    padding-left: 15%;\n    padding-right: 15%;\n  }"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": "AAAA,AAAA,CAAC,AAAA,KAAK,AAAC,CACH,KAAK,CAAE,KAAK,CACf,AAED,AAAA,CAAC,AAAA,QAAQ,AAAC,CACN,KAAK,CAAE,KAAK,CACf,AAED,AAAA,CAAC,AAAA,MAAM,AAAC,CACJ,KAAK,CAAE,OAAO,CACd,eAAe,CAAE,IAAI,CACxB,AAED,AAAA,OAAO,AAAC,CACJ,QAAQ,CAAE,MAAM,CAChB,GAAG,CAAE,CAAC,CACN,KAAK,CAAE,IAAI,CACX,YAAY,CAAE,GAAG,CACjB,aAAa,CAAE,GAAG,CACnB"
 }

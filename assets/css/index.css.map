@@ -5,8 +5,8 @@
 		"../../scss/index.scss"
 	],
 	"sourcesContent": [
-		"// Style Bootstrap icons\nbody {\n  font-size: 1rem;\n  font-weight: 400;\n  line-height: 1.5;\n  color: #6f42c1;\n}"
+		"body {\n  background-color: #f5f2df;\n  color: #402e2e;\n}\n\nfooter {\n  background-color: #f5f2df;\n  color: #402e2e\n}\n\n.section {\n  background-color: #402e2e;\n  color: #f5f2df;\n  padding: 5%;\n  text-align: left;\n}\n\n.aboutLink a:link {\n  color: #f2cb8f;\n}"
 	],
 	"names": [],
-	"mappings": "AACA,AAAA,IAAI,AAAC,CACH,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,GAAG,CAChB,WAAW,CAAE,GAAG,CAChB,KAAK,CAAE,OAAO,CACf"
+	"mappings": "AAAA,AAAA,IAAI,AAAC,CACH,gBAAgB,CAAE,OAAO,CACzB,KAAK,CAAE,OAAO,CACf,AAED,AAAA,MAAM,AAAC,CACL,gBAAgB,CAAE,OAAO,CACzB,KAAK,CAAE,OACT,CAAC,AAED,AAAA,QAAQ,AAAC,CACP,gBAAgB,CAAE,OAAO,CACzB,KAAK,CAAE,OAAO,CACd,OAAO,CAAE,EAAE,CACX,UAAU,CAAE,IAAI,CACjB,AAED,AAAA,UAAU,CAAC,CAAC,AAAA,KAAK,AAAC,CAChB,KAAK,CAAE,OAAO,CACf"
 }

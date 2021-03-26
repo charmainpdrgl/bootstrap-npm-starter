@@ -26,7 +26,7 @@
 
 @import "bootstrap/scss/functions"; // Required
 @import "bootstrap/scss/variables"; // Required
-@import "bootstrap/scss/mixin"; // Required
+@import "bootstrap/scss/mixins"; // Required
 
 //
 // Override Bootstrap here
@@ -39,13 +39,10 @@ $enable-shadows: true;
 // // Customised colour palette
 // $heading-text-colour: #8C0303;
 // $highlight-colour: #f5840c;
-$body-bg: #f5f2df;
+//$body-bg: #f5f2df;
 // $body-text-colour: #0D0D0D;
 // $secondary-highlight: #F2CF66;
 // $border-radius: .4rem;
-body {
-    background-color: #f5f2df;
-};
 
 // @import "bootstrap/scss/root";
 @import "bootstrap/scss/reboot"; // Required

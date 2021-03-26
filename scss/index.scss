@@ -1,8 +1,20 @@
-// Style Bootstrap icons
 body {
   background-color: #f5f2df;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #6f42c1;
+  color: #402e2e;
+}
+
+footer {
+  background-color: #f5f2df;
+  color: #402e2e
+}
+
+.section {
+  background-color: #402e2e;
+  color: #f5f2df;
+  padding: 5%;
+  text-align: left;
+}
+
+.aboutLink a:link {
+  color: #f2cb8f;
 }
