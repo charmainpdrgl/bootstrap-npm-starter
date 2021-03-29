@@ -9,12 +9,22 @@ footer {
 }
 
 .section {
-  background-color: #402e2e;
-  color: #f5f2df;
+  //background-color: #402e2e;
+  //color: #f5f2df;
   padding: 5%;
   text-align: left;
+  border-radius: 80px;
 }
 
 .aboutLink a:link {
+  color: #f2cb8f;
+}
+
+.link a:hover {
+  color: green;
+}
+
+footer {
+  background-color: #402e2e;
   color: #f2cb8f;
 }

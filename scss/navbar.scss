@@ -1,20 +1,26 @@
+nav {
+    background-color: #402e2e;
+    color:#f5f2df;
+    text-align: center;
+}
+
 a:link {
-    color: green;
+    color: #f5f2df;
 }
 
 a:visited {
-    color: green;
+    color: #f5f2df;
 }
 
 a:hover {
-    color: #402e2e;
     text-decoration: none;
 }
 
 .sticky {
     position: sticky;
     top: 0;
-    width: 100%;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding: 2%;
+    //width: 100%;
+    //padding-left: 15%;
+    //padding-right: 15%;
   }

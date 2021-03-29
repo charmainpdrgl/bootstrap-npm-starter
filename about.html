@@ -44,49 +44,54 @@
   </style>
 </head>
 <body>
+    <nav class="navbar navbar-expand-md sticky header" id="sticky" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">Charmain's Site</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-  <div class="px-4 py-5 my-5 text-center">
+          <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/store.html">Store</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/checkout.html">Checkout</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="py-5 text-center">
     <!-- replace with logo -->
     <img class="d-block mx-auto mb-4" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
     <!-- replace with store name -->
-    <h1 class="display-5 fw-bold">Let's Thrift</h1>
-    <br>
-    <div class="mx-auto sticky" id="sticky">
-        <nav class="navbar navbar-expand-md " aria-label="Fourth navbar example">
-            <div class="container-fluid">
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="/about.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/products.html">Buy</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/store.html">Sell</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/contact.html">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/checkout.html">Checkout</a>
-                  </li>
-                </ul>
-                <br>
-                <br>
-                <br>
-              </div>
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              </form>
-            </div>
-          </nav>
-    </div>
-    <br>
-    <br>
+    <h1 class="display-5 fw-bold">Name</h1>
+  </div>
     <div class="mx-auto section">
       <h2>ABOUT US</h2>
       <br>
@@ -124,20 +129,19 @@
         </div>
         </p>
     </div>
-  </div>
 
   <hr class="my-5">
 
-  <footer class="bd-footer p-3 p-md-5 text-center text-sm-start">
-    <div class="container">
+  <footer class="bd-footer p-3 p-md-5 text-center text-sm-start ">
+    <div class="container link">
       <ul class="bd-footer-links ps-0 mb-3">
-        <li class="d-inline-block"><a href="#">Terms & Conditions</a></li>
+        <li class="d-inline-block footerlink"><a href="#">Terms & Conditions</a></li>
         <li class="d-inline-block ms-3"><a href="#">Policies</a></li>
         <li class="d-inline-block ms-3"><a href="/about.html">About</a></li>
         <li class="d-inline-block ms-3"><a href="/contact.html">Contact</a></li>
       </ul>
-      <p class="mb-0">Designed and built with all the love in the world by <a href="/about">Charmain Pedrigal</a> with the help of <a href="https://getbootstrap.com/">Bootstrap</a>.</p>
-      <p class="mb-0">Currently using Bootstrap v5.0.0-beta3. Code licensed <a href="https://github.com/twbs/bootstrap/blob/main/LICENSE" target="_blank" rel="license noopener">MIT</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>.</p>
+      <p class="mb-0 bd-footer-links">Designed and built with all the love in the world by <a href="/about">Charmain Pedrigal</a> with the help of <a href="https://getbootstrap.com/">Bootstrap</a>.</p>
+      <p class="mb-0 bd-footer-links">Currently using Bootstrap v5.0.0-beta3. Code licensed <a href="https://github.com/twbs/bootstrap/blob/main/LICENSE" target="_blank" rel="license noopener">MIT</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>.</p>
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
@@ -147,9 +151,9 @@
   
     function scrollFunction() {
       if (document.body.scrollTop > 150 ) {
-        document.getElementById("sticky").style.backgroundColor = "#f2cb8f";
+        document.getElementById("sticky").style.backgroundColor = "#402e2e";
       } else {
-        document.getElementById("sticky").style.backgroundColor = "#f5f2df";
+        document.getElementById("sticky").style.backgroundColor = "#402e2e";
       }
     }
     </script>
