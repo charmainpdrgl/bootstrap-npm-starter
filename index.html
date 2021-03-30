@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="assets/css/global.css">
   <link rel="stylesheet" href="assets/css/index.css">
   <link rel="stylesheet" href="assets/css/navbar.css">
+  <link rel="stylesheet" href="assets/css/product-grid.css">
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
@@ -47,7 +48,7 @@
 
   <nav class="navbar navbar-expand-md sticky header" id="sticky" >
     <div class="container-fluid">
-      <a class="navbar-brand" href="/">Charmain's Site</a>
+      <a class="navbar-brand" href="/">RE:thrift</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -63,9 +64,9 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="/products.html">Products</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="/store.html">Store</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="/checkout.html">Checkout</a>
           </li>
@@ -87,16 +88,17 @@
       </div>
     </div>
   </nav>
-<div class="py-5 text-center">
-<!-- replace with logo -->
+<!-- <div class="py-5 text-center">
 <img class="d-block mx-auto mb-4" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-<!-- replace with store name -->
-<h1 class="display-5 fw-bold">Name</h1>
-</div>
-  <hr class="my-5">
-  <div class="col-lg-6 mx-auto">
-    <p class="mx-auto">We are a Dunedin-based second-hand online store which aims to inspire the wider local community and flatting students who come from different parts of New Zealand to live and think more sustainably.</p>
-    <svg class="bi text-danger" width="32" height="32">
+<h1 class="display-5 fw-bold">RE:thrift</h1>
+</div> -->
+  <!-- <hr class="my-5"> -->
+  <br>
+  <br>
+  <br>
+  <div class="col-lg-10 mx-auto">
+    <p class="mx-auto smallblurb">We are a Dunedin-based second-hand online store which aims to inspire the wider local community and flatting students who come from different parts of New Zealand to think and live more sustainably.</p>
+    <!-- <svg class="bi text-danger" width="32" height="32">
       <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#heart-fill"/>
     </svg>
     <svg class="bi text-dark" width="32" height="32">
@@ -104,7 +106,92 @@
     </svg>
     <svg class="bi text-primary" width="32" height="32">
       <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#shop"/>
-    </svg>
+    </svg> -->
+  </div>
+<br>
+<br>
+  <div class="container product-grid">
+    <div class="col">
+      <div class="card shadow-sm">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+          role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="#402e2e" /><text x="50%" y="50%" fill="#eceeef"
+            dy=".3em">Shop Accessories</text>
+        </svg>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card shadow-sm">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+          aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="#402e2e" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Shop Clothes</text>
+        </svg>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card shadow-sm">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+          aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="#402e2e" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Others</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+<br>
+<br>
+<br>
+<div class="py-5 text-center">
+  <h1 class="display-5 fw-bold">SHOP BY DEALS!</h1>
+</div>
+  <div class="container deals">
+    <div class="col">
+      <img src="/assets/img/five.svg" alt="$5 Deal">
+    </div>
+  
+    <div class="col">
+      <img src="/assets/img/ten.svg" alt="$10 Deal">
+    </div>
+
+    <div class="col">
+      <img src="/assets/img/twenty.svg" alt="$20 Deal">
+    </div>
+
+    <div class="col">
+      <img src="/assets/img/fifty.svg" alt="$50 Deal">
+    </div>
+  </div>
+<br>
+<br>
+<br>
+  <div class="col-lg-10 mx-auto mx-auto section workshopblurb">
+    <h2>Workshop Details</h2>
+    <button>See Availability...</button>
+  </div>
+<br>
+<br>
+<br>
+  <div class="container twocolumns">
+    <div class="col">
+      <div class="card shadow-sm">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+          role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="#402e2e" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">About Us Text</text>
+        </svg>
+        <button>See More...</button>
+      </div>
+    </div>
+  
+    <div class="col">
+      <div class="card shadow-sm">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+          role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="#402e2e" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Sustainability Text</text>
+        </svg>
+        <button>Learn More...</button>
+      </div>
+    </div>
   </div>
 
   <hr class="my-5">

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+  <g id="Group_2" data-name="Group 2" transform="translate(-514 -229)">
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(514 229)" fill="#402e2e" stroke="#707070" stroke-width="1">
+      <circle cx="96" cy="96" r="96" stroke="none"/>
+      <circle cx="96" cy="96" r="95.5" fill="none"/>
+    </g>
+    <text id="_20_and_under" data-name="$20
+and under" transform="translate(610 319)" fill="#f5f2df" font-size="40" font-family="Karla" font-weight="700"><tspan x="-38.53" y="0">$20</tspan><tspan y="0" font-size="20"></tspan><tspan font-size="20"><tspan x="-48.615" y="40">and under</tspan></tspan></text>
+  </g>
+</svg>

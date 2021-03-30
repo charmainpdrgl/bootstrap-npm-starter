@@ -1,6 +1,13 @@
 body {
   background-color: #f5f2df;
   color: #402e2e;
+  font-family:'Karla';
+}
+
+.smallblurb {
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
 }
 
 footer {
@@ -14,6 +21,44 @@ footer {
   padding: 5%;
   text-align: left;
   border-radius: 80px;
+}
+
+.workshopblurb{
+  //background-color: #402e2e;
+  color: #402e2e;
+  padding: 5%;
+  text-align: left;
+  border-radius: 80px;
+}
+
+.twocolumns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+
+  @media screen and (min-width: 576px) and (max-width: 992px)
+  {
+      grid-template-columns: repeat(2, 1fr);
+  }
+  
+  @media screen and (max-width: 576px) {
+      grid-template-columns: repeat(1, 1fr);
+  }   
+}
+
+.deals {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.5rem;
+
+  @media screen and (min-width: 576px) and (max-width: 992px)
+  {
+      grid-template-columns: repeat(2, 1fr);
+  }
+  
+  @media screen and (max-width: 576px) {
+      grid-template-columns: repeat(1, 1fr);
+  }   
 }
 
 .aboutLink a:link {
