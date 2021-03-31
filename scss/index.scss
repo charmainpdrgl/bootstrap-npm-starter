@@ -4,6 +4,10 @@ body {
   font-family:'Karla';
 }
 
+p {
+  font-size: large;
+}
+
 .smallblurb {
   font-size: 20px;
   text-align: center;
@@ -12,7 +16,11 @@ body {
 
 footer {
   background-color: #f5f2df;
-  color: #402e2e
+  color: #402e2e;
+}
+
+footer p{
+  font-size: medium;
 }
 
 .section {

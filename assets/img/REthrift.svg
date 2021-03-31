@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="178.4" height="182.4" viewBox="0 0 178.4 182.4">
+  <defs>
+    <filter id="RE_thrift" x="0" y="0" width="178.4" height="182.4" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#RE_thrift)">
+    <text id="RE_thrift-2" data-name="RE
+thrift" transform="translate(89.2 116.2)" fill="#f5f2df" stroke="#f2cb8f" stroke-linecap="square" stroke-linejoin="round" stroke-width="0.2" font-size="100" font-family="Spectral-ExtraBold, Spectral" font-weight="800"><tspan x="-73.5" y="0">RE</tspan><tspan font-size="25"><tspan x="-32.912" y="20">thrift</tspan></tspan></text>
+  </g>
+</svg>
