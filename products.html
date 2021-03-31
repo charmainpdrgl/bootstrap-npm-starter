@@ -14,10 +14,10 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
  <!-- Custom styles for this template -->
- <link rel="stylesheet" href="assets/css/product-grid.css">
- <link href="assets/css/navbar.css" rel="stylesheet">
- <link rel="stylesheet" href="assets/css/global.css">
-  <link rel="stylesheet" href="assets/css/index.css">
+<link rel="stylesheet" href="assets/css/global.css">
+<link rel="stylesheet" href="assets/css/index.css">
+<link rel="stylesheet" href="assets/css/navbar.css">
+<link rel="stylesheet" href="assets/css/product-grid.css">
 
     <!-- Favicons -->
 <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
@@ -46,49 +46,40 @@
     
   </head>
   <body>
-    <nav class="navbar navbar-expand-md header" id="sticky" >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/">Charmain's Site</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-  
-        <div class="collapse navbar-collapse" id="navbarsExample04">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/products.html">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/store.html">Store</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/checkout.html">Checkout</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          </form>
+      <nav class="navbar navbar-expand-md sticky header" id="sticky">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="/"><img class="d-block mx-auto mb-4" src="/assets/img/REthrift.png" alt="" width="100" height="100"></a> -->
+          <a class="navbar-brand" href="/">REthrift</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarExample04"
+            aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/store.html">Store</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/checkout.html">Checkout</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <div data-netlify-identity-menu></div>
+          </div>
         </div>
-      </div>
-    </nav>
-    <br>
+      </nav>
     <br>
     <br>
     <div class="container product-grid">
