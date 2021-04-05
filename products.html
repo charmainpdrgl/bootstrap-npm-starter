@@ -18,6 +18,7 @@
 <link rel="stylesheet" href="assets/css/index.css">
 <link rel="stylesheet" href="assets/css/navbar.css">
 <link rel="stylesheet" href="assets/css/product-grid.css">
+<link rel="stylesheet" href="assets/css/filter.css">
 
     <!-- Favicons -->
 <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
@@ -82,8 +83,19 @@
       </nav>
     <br>
     <br>
+
+    <!-- Control buttons -->
+    <div class="py-5 text-center" id="myBtnContainer">
+      <button class="btn" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('tops')"> Tops</button>
+      <button class="btn" onclick="filterSelection('bottoms')"> Bottoms</button>
+      <button class="btn" onclick="filterSelection('jackets')"> Jackets</button>
+      <button class="btn" onclick="filterSelection('accessories')"> Accessories</button>
+      <button class="btn" onclick="filterSelection('footwear')"> Footwear</button>
+    </div>
+
     <div class="container product-grid">
-        <div class="col">
+        <div class="filterDiv footwear col">
           <div class="card shadow-sm">
             <img class="card-img-top img-fluid d-block" src="assets/img/airmax.png" alt="Shoes" />
             <div class="card-body">
@@ -99,7 +111,7 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="filterDiv bottoms col">
           <div class="card shadow-sm">
             <img class="card-img-top img-fluid d-block" src="assets/img/blackskirt.png" alt="Glassons Black Skirt" />
             <div class="card-body">
@@ -116,7 +128,7 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="filterDiv accessories col">
           <div class="card shadow-sm">
             <img class="card-img-top img-fluid d-block" src="assets/img/brownhandbag.png" alt="Brown Handbag" />
             <div class="card-body">
@@ -132,7 +144,7 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="filterDiv footwear col">
           <div class="card shadow-sm">
             <img class="card-img-top img-fluid d-block" src="assets/img/brownnike.png" alt="Shoes" />
             <div class="card-body">
@@ -149,7 +161,7 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="filterDiv bottoms col">
           <div class="card shadow-sm">
             <img class="card-img-top img-fluid d-block" src="assets/img/brownskirt.png" alt="Brown Corduroy Skirt" />
             <div class="card-body">
@@ -166,7 +178,7 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="filterDiv accessories col">
           <div class="card shadow-sm">
             <img class="card-img-top img-fluid d-block" src="assets/img/bwminibag.png" alt="Black & White Mini Bag" />
             <div class="card-body">
@@ -182,7 +194,7 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="filterDiv jackets col">
           <div class="card shadow-sm">
             <img class="card-img-top img-fluid d-block" src="assets/img/denimjacket.png" alt="Denim Jacket" />
             <div class="card-body">
@@ -199,24 +211,7 @@
           </div>
         </div>
 
-        <!-- <div class="col">
-          <div class="card shadow-sm">
-            <img class="card-img-top img-fluid d-block" src="assets/img/dottitop.png" alt="Polka-Dotted Top" />
-            <div class="card-body">
-              <p class="card-text">Dotti Polka Dot Top
-                <br>Size Small
-              </p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
-                <small class="text-muted">$10</small>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-        <div class="col">
+        <div class="filterDiv accessories col">
           <div class="card shadow-sm">
             <img class="card-img-top img-fluid d-block" src="assets/img/fannypack.png" alt="Adidas Fanny Pack" />
             <div class="card-body">
@@ -232,7 +227,7 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="filterDiv tops col">
           <div class="card shadow-sm">
             <img class="card-img-top img-fluid d-block" src="assets/img/greenturtleneck.png" alt="Green Turtleneck" />
             <div class="card-body">
@@ -249,7 +244,7 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="filterDiv jackets col">
           <div class="card shadow-sm">
             <img class="card-img-top img-fluid d-block" src="assets/img/greyjacket.png" alt="Grey Kathmandu Jacket" />
             <div class="card-body">
@@ -266,7 +261,7 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="filterDiv bottoms col">
           <div class="card shadow-sm">
             <img class="card-img-top img-fluid d-block" src="assets/img/greyskirt.png" alt="Grey Skirt" />
             <div class="card-body">
@@ -283,24 +278,7 @@
           </div>
         </div>
 
-        <div class="col">
-          <div class="card shadow-sm">
-            <img class="card-img-top img-fluid d-block" src="assets/img/jayjaystanktop.png" alt="Jayjays Yellow Striped Tank Top" />
-            <div class="card-body">
-              <p class="card-text">Yellow Striped Tank Top
-                <br>Size 6
-              </p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
-                <small class="text-muted">$5</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
+        <div class="filterDiv tops jackets col">
           <div class="card shadow-sm">
             <img class="card-img-top img-fluid d-block" src="assets/img/maroonjersey.png"
               alt="Maroon Jersey" />
@@ -318,7 +296,7 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="filterDiv accessories col">
           <div class="card shadow-sm">
             <img class="card-img-top img-fluid d-block" src="assets/img/pinkminibag.png" alt="Pink Mini Bag" />
             <div class="card-body">
@@ -334,7 +312,7 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="filterDiv footwear col">
           <div class="card shadow-sm">
             <img class="card-img-top img-fluid d-block" src="assets/img/redheels.png" alt="Red Heels" />
             <div class="card-body">
@@ -369,18 +347,44 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-  <!-- <script>
-    window.onscroll = function() {scrollFunction()};
-  
-    function scrollFunction() {
-      if (document.body.scrollTop > 150 ) {
-        document.getElementById("sticky").style.backgroundColor = "#402e2e";
-      } else {
-        document.getElementById("sticky").style.backgroundColor = "#402e2e";
+  <script>
+    filterSelection("all")
+      function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("col");
+        if (c == "all") c = "";
+        // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+        for (i = 0; i < x.length; i++) {
+          w3RemoveClass(x[i], "show");
+          if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+        }
       }
-    }
-    </script> -->
 
+      // Show filtered elements
+      function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          if (arr1.indexOf(arr2[i]) == -1) {
+            element.className += " " + arr2[i];
+          }
+        }
+      }
+
+      // Hide elements that are not selected
+      function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          while (arr1.indexOf(arr2[i]) > -1) {
+            arr1.splice(arr1.indexOf(arr2[i]), 1);
+          }
+        }
+        element.className = arr1.join(" ");
+      }
       
+    </script>
   </body>
 </html>

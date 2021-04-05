@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "filter.css",
+	"sources": [
+		"../../scss/filter.scss"
+	],
+	"sourcesContent": [
+		".filterDiv {\n  text-align: center;\n  margin: 2px;\n  display: none; /* Hidden by default */\n}\n\n/* The \"show\" class is added to the filtered elements */\n.show {\n  display: block;\n}\n\n/* Style the buttons */\n.btn {\n  border: none;\n  outline: none;\n  padding: 12px 16px;\n  background-color: #f1f1f1;\n  cursor: pointer;\n}\n\n/* Add a light grey background on mouse-over */\n.btn:hover {\n  background-color: #ddd;\n}\n\n/* Add a dark background to the active button */\n.btn.active {\n  background-color: #666;\n  color: white;\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,UAAU,AAAC,CACT,UAAU,CAAE,MAAM,CAClB,MAAM,CAAE,GAAG,CACX,OAAO,CAAE,IAAI,CACd,AAGD,AAAA,KAAK,AAAC,CACJ,OAAO,CAAE,KAAK,CACf,AAGD,AAAA,IAAI,AAAC,CACH,MAAM,CAAE,IAAI,CACZ,OAAO,CAAE,IAAI,CACb,OAAO,CAAE,SAAS,CAClB,gBAAgB,CAAE,OAAO,CACzB,MAAM,CAAE,OAAO,CAChB,AAGD,AAAA,IAAI,AAAA,MAAM,AAAC,CACT,gBAAgB,CAAE,IAAI,CACvB,AAGD,AAAA,IAAI,AAAA,OAAO,AAAC,CACV,gBAAgB,CAAE,IAAI,CACtB,KAAK,CAAE,KAAK,CACb"
+}
