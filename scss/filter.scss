@@ -21,6 +21,8 @@
 /* Add a light grey background on mouse-over */
 .btn:hover {
   background-color: #ddd;
+  opacity: 1;
+  transition: 1s;
 }
 
 /* Add a dark background to the active button */
