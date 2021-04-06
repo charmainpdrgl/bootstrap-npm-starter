@@ -44,37 +44,43 @@
   </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md sticky header" id="sticky" >
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/">REthrift</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<nav class="navbar navbar-expand-md sticky header" id="sticky">
+  <div class="container-fluid">
+    <!-- <a class="navbar-brand" href="/"><img class="d-block mx-auto mb-4" src="/assets/img/REthrift.png" alt="" width="100" height="100"></a> -->
+    <a class="navbar-brand" href="/">REthrift</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarExample04"
+      aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-          <div class="collapse navbar-collapse" id="navbarsExample04">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/products.html">Products</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/store.html">Store</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/checkout.html">Checkout</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            </form>
-          </div>
-        </div>
-      </nav>
+    <div class="collapse navbar-collapse" id="navbarsExample04">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="/about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/products.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/store.html">Store</a>
+        </li>
+        <!-- <li class="nav-item">
+            <a class="nav-link" href="/checkout.html">Checkout</a>
+          </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="/workshop.html">Blog</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      </form>
+      <div data-netlify-identity-menu></div>
+    </div>
+  </div>
+</nav>
     <div class="py-5 text-center">
     <h3 class="fw-bold">ABOUT US</h3>
   </div>
@@ -137,10 +143,13 @@ best to repair, clean and make the things you bring into something that can be u
   <footer class="bd-footer p-3 p-md-5 text-center text-sm-start ">
     <div class="container link">
       <ul class="bd-footer-links ps-0 mb-3">
-        <li class="d-inline-block footerlink"><a href="#">Terms & Conditions</a></li>
-        <li class="d-inline-block ms-3"><a href="#">Policies</a></li>
+        <li class="d-inline-block ms-3"><a href="/index.html">Home</a></li>
         <li class="d-inline-block ms-3"><a href="/about.html">About</a></li>
-        <li class="d-inline-block ms-3"><a href="/contact.html">Contact</a></li>
+        <li class="d-inline-block ms-3"><a href="/products.html">Products</a></li>
+        <li class="d-inline-block ms-3"><a href="/store.html">Store</a></li>
+        <li class="d-inline-block ms-3"><a href="/workshop.html">Blog</a></li>
+        <li class="d-inline-block ms-3"><a href="#">Terms & Conditions</a></li>
+        <li class="d-inline-block ms-3"><a href="#">Policies</a></li>
       </ul>
       <p class="mb-0 bd-footer-links">Designed and built with all the love in the world by <a href="/about">Charmain Pedrigal</a> with the help of <a href="https://getbootstrap.com/">Bootstrap</a>.</p>
       <p class="mb-0 bd-footer-links">Currently using Bootstrap v5.0.0-beta3. Code licensed <a href="https://github.com/twbs/bootstrap/blob/main/LICENSE" target="_blank" rel="license noopener">MIT</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>.</p>
