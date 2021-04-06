@@ -1,3 +1,3 @@
-.product-grid{display:grid;grid-template-columns:repeat(3, 1fr);gap:2.5rem}@media screen and (min-width: 576px) and (max-width: 992px){.product-grid{grid-template-columns:repeat(2, 1fr)}}@media screen and (max-width: 576px){.product-grid{grid-template-columns:repeat(1, 1fr)}}.shape{border-radius:80px}.centered{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);background-color:beige;padding:3%}
+.product-grid{display:grid;grid-template-columns:repeat(3, 1fr);gap:2.5rem}@media screen and (min-width: 576px) and (max-width: 992px){.product-grid{grid-template-columns:repeat(2, 1fr)}}@media screen and (max-width: 576px){.product-grid{grid-template-columns:repeat(1, 1fr)}}.shape{border-radius:80px}.centered{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);color:white;padding:3%;font-size:x-large}.dealbutton:hover{opacity:0.6;transition:1s}
 
 /*# sourceMappingURL=product-grid.css.map */

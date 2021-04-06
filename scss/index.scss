@@ -74,11 +74,19 @@ footer p{
   font-style: italic;
 }
 
-.link a:hover {
-  color: green;
-}
-
 footer {
   background-color: #402e2e;
   color: #f2cb8f;
+}
+
+.customButtons {
+  background-color: gray;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: small;
+}
+
+.customButtons:hover {
+    opacity: 0.6;
+    transition: 1s;
 }
