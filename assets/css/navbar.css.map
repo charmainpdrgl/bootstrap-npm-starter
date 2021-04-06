@@ -5,8 +5,8 @@
 		"../../scss/navbar.scss"
 	],
 	"sourcesContent": [
-		"nav {\n    background-color: #402e2e;\n    color:#f5f2df;\n    text-align: center;\n}\n\na:link {\n    color: #f5f2df;\n}\n\na:visited {\n    color: #f5f2df;\n}\n\na:hover {\n    text-decoration: none;\n}\n\n.sticky {\n    position: sticky;\n    top: 0;\n    padding: 2%;\n    //width: 100%;\n    //padding-left: 15%;\n    //padding-right: 15%;\n  }"
+		"nav {\n    background-color: #402e2e;\n    color:#f5f2df;\n    text-align: center;\n    z-index: 9;\n}\n\na:link {\n    color: #f5f2df;\n}\n\na:visited {\n    color: #f5f2df;\n}\n\na:hover {\n    text-decoration: none;\n}\n\n.sticky {\n    position: sticky;\n    top: 0;\n    padding: 2%;\n  }"
 	],
 	"names": [],
-	"mappings": "AAAA,AAAA,GAAG,AAAC,CACA,gBAAgB,CAAE,OAAO,CACzB,KAAK,CAAC,OAAO,CACb,UAAU,CAAE,MAAM,CACrB,AAED,AAAA,CAAC,AAAA,KAAK,AAAC,CACH,KAAK,CAAE,OAAO,CACjB,AAED,AAAA,CAAC,AAAA,QAAQ,AAAC,CACN,KAAK,CAAE,OAAO,CACjB,AAED,AAAA,CAAC,AAAA,MAAM,AAAC,CACJ,eAAe,CAAE,IAAI,CACxB,AAED,AAAA,OAAO,AAAC,CACJ,QAAQ,CAAE,MAAM,CAChB,GAAG,CAAE,CAAC,CACN,OAAO,CAAE,EAAE,CAIZ"
+	"mappings": "AAAA,AAAA,GAAG,AAAC,CACA,gBAAgB,CAAE,OAAO,CACzB,KAAK,CAAC,OAAO,CACb,UAAU,CAAE,MAAM,CAClB,OAAO,CAAE,CAAC,CACb,AAED,AAAA,CAAC,AAAA,KAAK,AAAC,CACH,KAAK,CAAE,OAAO,CACjB,AAED,AAAA,CAAC,AAAA,QAAQ,AAAC,CACN,KAAK,CAAE,OAAO,CACjB,AAED,AAAA,CAAC,AAAA,MAAM,AAAC,CACJ,eAAe,CAAE,IAAI,CACxB,AAED,AAAA,OAAO,AAAC,CACJ,QAAQ,CAAE,MAAM,CAChB,GAAG,CAAE,CAAC,CACN,OAAO,CAAE,EAAE,CACZ"
 }

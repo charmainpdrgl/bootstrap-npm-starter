@@ -2,6 +2,7 @@ nav {
     background-color: #402e2e;
     color:#f5f2df;
     text-align: center;
+    z-index: 9;
 }
 
 a:link {
@@ -20,7 +21,4 @@ a:hover {
     position: sticky;
     top: 0;
     padding: 2%;
-    //width: 100%;
-    //padding-left: 15%;
-    //padding-right: 15%;
   }
