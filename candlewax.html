@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/single-product.css">
+    <link rel="stylesheet" href="assets/css/netlifyauth.css">
+
+    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
@@ -55,43 +58,46 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md sticky header" id="sticky">
-        <div class="container-fluid">
-            <!-- <a class="navbar-brand" href="/"><img class="d-block mx-auto mb-4" src="/assets/img/REthrift.png" alt="" width="100" height="100"></a> -->
-            <a class="navbar-brand" href="/">REthrift</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarExample04"
-                aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+<nav class="navbar navbar-expand-lg sticky header" id="sticky navbar">
+    <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="/"><img class="d-block mx-auto mb-4" src="/assets/img/REthrift.png" alt="" width="100" height="100"></a> -->
+        <a class="navbar-brand" href="/"><img class="logo " src="/assets/img/logo4.png" alt="REthrift Logo" /></a>
 
-            <div class="collapse navbar-collapse" id="navbarsExample04">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/products.html">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/store.html">Store</a>
-                    </li>
-                    <!-- <li class="nav-item">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/store.html">Store</a>
+                </li>
+                <!-- <li class="nav-item">
             <a class="nav-link" href="/checkout.html">Checkout</a>
           </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="/workshop.html">Blog</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                </form>
-                <div data-netlify-identity-menu></div>
-            </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="/workshop.html">Blog</a>
+                </li>
+            </ul>
+            <!-- <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </form> -->
+            <div class="customNetlify" data-netlify-identity-menu></div>
         </div>
-    </nav>
+
+    </div>
+</nav>
     <div class="py-5 text-center">
         <h3 class="fw-bold">Remove Leftover Candle Wax</h3>
     </div>

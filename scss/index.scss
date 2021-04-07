@@ -4,6 +4,24 @@ body {
   font-family:'Karla';
 }
 
+.logo {
+  width: 71px;
+  height: 60px;
+}
+
+.menu {
+  $breakpoint_tablet: 680px;
+  $breakpoint_desktop: 1040px;
+  $max_header_width: 1200px;
+  $color_background: #FAFAFA;
+  $color_background_alt: #e0e5eb;
+  $color_text: #121212;
+  $color_text_alt: #36bae6;
+  $color_border: #e0e5eb;
+  $transition_link: .14s ease-in-out;
+  $transition_anim: .22s ease-in-out;
+}
+
 p {
   font-size: large;
 }
