@@ -26,10 +26,11 @@
   color: white;
   padding: 3%;
   font-size: x-large;
+  background-color: gray;
 }
 
 .dealbutton:hover {
-    opacity: 0.6;
+    background-color: transparent;
     transition: 1s;
 }
 
